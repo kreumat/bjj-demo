@@ -1,5 +1,4 @@
 import { useLanguage } from '../i18n/LanguageContext';
-import { assetUrl } from '../lib/asset';
 
 export function QuickLinks() {
   const { t } = useLanguage();
@@ -23,17 +22,10 @@ export function QuickLinks() {
               href={link.href}
               className={`group relative grid aspect-square w-full max-w-[320px] place-items-center overflow-hidden rounded-full border transition-all duration-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ef233c] ${
                 index === 0
-                  ? 'border-[#df111c] bg-[#df111c] text-white hover:bg-[#bd0f18]'
+                  ? 'border-[#e30613] bg-[#e30613] text-white hover:bg-[#bd0f18]'
                   : 'border-black/20 bg-transparent text-black hover:border-black hover:bg-black hover:text-white'
               }`}
             >
-              {index === 0 && (
-                <img
-                  src={assetUrl('brand/academy-mark.png')}
-                  alt=""
-                  className="absolute left-1/2 top-[43%] h-[48%] w-[48%] -translate-x-1/2 -translate-y-1/2 object-contain opacity-20 transition-transform duration-700 group-hover:scale-110 group-hover:rotate-6"
-                />
-              )}
               <span className="absolute left-[16%] top-[14%] text-[9px] font-bold tracking-[0.2em] opacity-60 sm:text-[10px]">
                 {link.index}
               </span>
