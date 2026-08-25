@@ -33,15 +33,15 @@ export function Academy() {
           </div>
 
           <div className="relative overflow-hidden rounded-[2rem] bg-[#f5f5f1] p-3 sm:p-5">
-            <div className="absolute left-7 top-7 z-10 rounded-full bg-black px-4 py-2 text-[10px] font-bold uppercase tracking-[0.16em] text-white">
+            <div className="absolute right-6 top-6 z-10 rounded-full bg-black/85 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.16em] text-white backdrop-blur sm:right-8 sm:top-8">
               {t.academy.badge}
             </div>
             <img
-              src={assetUrl('art/gi-practitioner.png')}
+              src={assetUrl('og.png')}
               alt={t.academy.imageAlt}
-              className="aspect-[4/5] h-full w-full rounded-[1.35rem] object-contain object-center sm:aspect-[4/3]"
+              className="aspect-[1732/909] w-full rounded-[1.35rem] object-cover object-center"
             />
-            <div className="relative z-10 mt-3 flex items-end justify-between gap-4 rounded-2xl bg-white/92 p-4 text-black backdrop-blur sm:absolute sm:inset-x-9 sm:bottom-9 sm:mt-0 sm:p-5">
+            <div className="relative z-10 mt-3 flex items-end justify-between gap-4 rounded-2xl bg-white p-4 text-black sm:p-5">
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-black/42">
                   {t.academy.cardEyebrow}

@@ -18,7 +18,6 @@ export function Hero() {
         loop
         playsInline
         preload="metadata"
-        poster={assetUrl('art/gi-practitioner.png')}
         aria-hidden="true"
       >
         <source src={assetUrl('media/bjj-background.mp4')} type="video/mp4" />

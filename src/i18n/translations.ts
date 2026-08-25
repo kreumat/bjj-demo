@@ -30,7 +30,7 @@ export const translations = {
         { value: '90', label: 'Dakikalık teknik seanslar' },
         { value: '01', label: 'Ortak gelişim kültürü' },
       ],
-      badge: 'Duruş / 01', imageAlt: 'Beyaz BJJ gi ile ayakta duran sporcu illüstrasyonu',
+      badge: 'XYZ / 01', imageAlt: 'XYZ Academy Brazilian Jiu-Jitsu bannerı',
       cardEyebrow: 'Temel her şeydir', cardCopy: 'Duruş, disiplin ve tekrar; sağlam bir oyunun başlangıcı.',
     },
     programs: {
@@ -99,7 +99,7 @@ export const translations = {
         { value: '90', label: 'Minute technical sessions' },
         { value: '01', label: 'Shared growth culture' },
       ],
-      badge: 'Stance / 01', imageAlt: 'Illustration of a standing athlete in a white BJJ gi',
+      badge: 'XYZ / 01', imageAlt: 'XYZ Academy Brazilian Jiu-Jitsu banner',
       cardEyebrow: 'Basics are everything', cardCopy: 'Posture, discipline and repetition: the start of a solid game.',
     },
     programs: {
@@ -168,7 +168,7 @@ export const translations = {
         { value: '90', label: 'Минут техники' },
         { value: '01', label: 'Общая культура роста' },
       ],
-      badge: 'Стойка / 01', imageAlt: 'Иллюстрация спортсмена в белом BJJ-ги',
+      badge: 'XYZ / 01', imageAlt: 'Баннер XYZ Academy Brazilian Jiu-Jitsu',
       cardEyebrow: 'Основа решает всё', cardCopy: 'Стойка, дисциплина и повторение — начало сильной игры.',
     },
     programs: {
